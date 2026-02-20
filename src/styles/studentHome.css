@@ -1,0 +1,184 @@
+.student-home-dashboard{
+    margin: 10px 20px;
+}
+.student-home-dashboard h1{
+    font-size: 22px;
+}
+.student-home-dashboard p{
+    font-size: 11px;
+}
+.dashboard-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff9f1;
+    color: rgb(69, 69, 69);
+    margin-top: 10px;
+}
+
+.dashboard-card-icon{
+    font-size: 28px;
+    background-color: #ff6b35;
+    color: white;
+    padding: 7px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+.dash-icon-1{
+    background-color: #ff6b35;
+}
+.dash-icon-2{
+    background-color: #00a63e;
+}
+.dash-icon-3{
+    background-color: #155dfc;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* home quick actions  */
+
+.student-home-quick-actions{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.student-home-quick-actions h1{
+    font-size: 18px;
+}
+.quick-actions-item{
+    display: flex;
+    align-items: center;
+    background-color: #ff6b35;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+.quick-actions-item p{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.quick-actions-reminder{
+    border: 1px solid #ffd6a7;
+    background-color: #fff7ed;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.quick-actions-reminder h1{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.quick-actions-reminder p{
+    font-size: 10px;
+    color: rgb(69, 69, 69);
+}
+
+
+
+
+
+
+/* my classses container */
+
+.my-classes-container{
+    
+}
+
+.my-class-card{
+    margin: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.my-class-name-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-class-name-logo h1{
+    font-size: 15px;
+    font-weight: 800;
+}
+.my-class-logo{
+    font-size: 22px;
+    color: blue;
+}
+.my-class-trainer{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 5px 0px;
+}
+.class-trainer-logo{
+    font-size: 25px;
+    color: #aeaeae;
+    margin-right: 7px;
+}
+.my-class-trainer div p{
+    font-size: 10px;
+    color: #767c86;
+}
+.my-class-trainer div h4{
+    font-size: 11px;
+    font-weight: 600;
+}
+.my-class-time{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 5px 0px;
+}
+.class-time-logo{
+    font-size: 25px;
+    color: #63a2ff;
+    margin-right: 7px;
+}
+.my-class-time div p{
+    font-size: 10px;
+    color: #767c86;
+}
+.my-class-time div h4{
+    font-size: 11px;
+    font-weight: 600;
+}
+.my-class-view-btn{
+    background-color: #ff6b35;
+    border: 0px;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.my-class-status-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.my-class-status-btn div{
+    border:1px solid #ff6b35;
+    background-color: #ff6b3549;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.my-class-status-btn div p{
+    font-size: 10px;
+    color: #ff6b35;
+    
+}
