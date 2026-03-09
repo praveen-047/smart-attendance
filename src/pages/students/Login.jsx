@@ -2,7 +2,7 @@ import React from 'react'
 import { RiAdminFill } from "react-icons/ri";
 import { FaBookOpen } from "react-icons/fa";
 import { LuQrCode } from "react-icons/lu";
-import '../styles/login.css'
+import '../../styles/login.css'
 const Login = () => {
     return (
 

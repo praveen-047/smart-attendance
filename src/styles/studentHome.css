@@ -2,39 +2,46 @@
     margin: 10px 20px;
 }
 .student-home-dashboard h1{
-    font-size: 22px;
+    font-size: 25px;
+    font-weight: 600;
 }
 .student-home-dashboard p{
-    font-size: 11px;
+    font-size: 15px;
 }
+
 .dashboard-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 18px;
+    margin: 10px 0px;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: #fff9f1;
     color: rgb(69, 69, 69);
-    margin-top: 10px;
+    text-align: center;
 }
 
 .dashboard-card-icon{
-    font-size: 28px;
+    font-size: 40px;
     background-color: #ff6b35;
     color: white;
     padding: 7px;
     border-radius: 100%;
     margin-bottom: 5px;
 }
+.dashboard-card p{
+    font-size: 18px;
+    font-weight: 400;
+}
 .dash-icon-1{
-    background-color: #ff6b35;
+    background-color: #fe5252;
 }
 .dash-icon-2{
-    background-color: #00a63e;
+    background-color: #88d657;
 }
 .dash-icon-3{
-    background-color: #155dfc;
+    background-color: #bd67fa;
 }
 
 
@@ -58,7 +65,7 @@
     padding: 10px;
 }
 .student-home-quick-actions h1{
-    font-size: 18px;
+    font-size: 25px;
 }
 .quick-actions-item{
     display: flex;
@@ -67,10 +74,10 @@
     border-radius: 5px;
     padding: 10px 15px;
     color: rgb(255, 255, 255);
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .quick-actions-item p{
-    font-size: 13px;
+    font-size: 18px;
     padding-left: 10px;
 }
 .quick-actions-reminder{
@@ -82,12 +89,12 @@
 }
 .quick-actions-reminder h1{
     color: black;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 5px;
 }
 .quick-actions-reminder p{
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(69, 69, 69);
 }
 
@@ -98,15 +105,12 @@
 
 /* my classses container */
 
-.my-classes-container{
-    
-}
 
 .my-class-card{
     margin: 10px 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 .my-class-name-logo{
     display: flex;
@@ -114,7 +118,7 @@
     justify-content: space-between;
 }
 .my-class-name-logo h1{
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 800;
 }
 .my-class-logo{
@@ -127,16 +131,16 @@
     margin: 5px 0px 5px 0px;
 }
 .class-trainer-logo{
-    font-size: 25px;
+    font-size: 40px;
     color: #aeaeae;
     margin-right: 7px;
 }
 .my-class-trainer div p{
-    font-size: 10px;
+    font-size: 15px;
     color: #767c86;
 }
 .my-class-trainer div h4{
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 600;
 }
 .my-class-time{
@@ -145,25 +149,34 @@
     margin: 5px 0px 5px 0px;
 }
 .class-time-logo{
-    font-size: 25px;
-    color: #63a2ff;
-    margin-right: 7px;
+    font-size: 35px;
+    color: #8CE4FF;
+    margin-right: 13px;
+    padding-left: 2px;
 }
 .my-class-time div p{
-    font-size: 10px;
+    font-size: 15px;
     color: #767c86;
 }
 .my-class-time div h4{
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 600;
+}
+.class-location-logo{
+    align-self: center;
+    font-size: 30px;
+    color: #FF0000;
+    margin-right: 16px;
+    padding-left: 8px;
 }
 .my-class-view-btn{
     background-color: #ff6b35;
     border: 0px;
     color: white;
-    padding: 5px 8px;
+    padding: 5px 15px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .my-class-status-btn{
     display: flex;
@@ -171,14 +184,11 @@
     align-items: center;
     margin-top: 5px;
 }
-.my-class-status-btn div{
-    border:1px solid #ff6b35;
-    background-color: #ff6b3549;
-    border-radius: 5px;
-    padding: 2px 5px;
-}
-.my-class-status-btn div p{
-    font-size: 10px;
-    color: #ff6b35;
+
+.my-class-status-btn p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #08CB00;
+    padding: 2px 15px;
     
 }

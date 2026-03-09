@@ -1,0 +1,146 @@
+.student-history-container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.back-to-dashboard{
+    display: flex;
+    align-items: center;
+}
+.back-to-icon{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.back-to-btn{
+    background-color: white;
+    border: 0px;
+    color: black;
+}
+
+
+
+.attendance-history-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.history-card-icon{
+height: 50px;
+    width: 50px;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 15px;
+}
+.bg-green{
+    background-color: #00a63e;
+}
+.bg-blue{
+    background-color: #155dfc;
+}
+.bg-red{
+    background-color: #e7000b;
+}
+
+
+
+
+
+/* filter by month container css */
+.filterby-month-container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.filterby-month-container{
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+.month-select{
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 2px 4px;
+    background-color: white;
+}
+.month-select:hover{
+    border-color: rgba(255, 166, 0, 0.799);
+    
+}
+
+/* attendance table css */
+
+
+.attendance-table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+  margin-top: 10px;
+}
+
+.attendance-table th{
+  text-align:left;
+  background:#f1f1f1;
+  padding:14px;
+  font-weight:600;
+  color:#555;
+}
+
+.attendance-table td{
+  padding:14px;
+  border-top:1px solid #eee;
+  color:#333;
+}
+
+.status{
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:14px;
+  font-weight:500;
+}
+
+.present{
+  background:#d4edda;
+  color:#1e7e34;
+}
+
+.absent{
+  background:#f8d7da;
+  color:#c82333;
+}
+
+
+
+/* attendance policy */
+.attendance-policy{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border:1px solid #ff6b35;
+    display: flex;
+    align-items: flex-start;
+}
+.attendance-policy-icon{
+    color: #ff6b35;
+    font-size: 70px;
+    align-self: flex-start;
+    margin-right: 15px;
+}
+.attendance-policy-content h1{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.attendance-policy-content p{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
