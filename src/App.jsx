@@ -13,6 +13,7 @@ const App = ()=>{
         <Nav/>
         <Routes>
           <Route path="/login" element={<Login/>}/>
+          <Route path="/" element={<StudentHome/>}/>
           <Route path="/student/dashboard" element={<StudentHome/>}/>
           <Route path='/student/scan' element={<StudentScan/>}/>
           <Route path='/student/history' element={<StudentHistory/>}/>
