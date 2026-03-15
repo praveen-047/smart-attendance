@@ -22,7 +22,7 @@ const StudentHome = () => {
   return (
     <>
       <div className='student-home-dashboard'>
-        <h1 className="m-0">My Dashboard</h1>
+        <h1 className="m-0">Welcome back, PRAVEEN</h1>
         <p className="m-0">{formattedDate}</p>
 
         {/* my dashboard container */}

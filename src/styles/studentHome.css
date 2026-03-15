@@ -2,11 +2,14 @@
     margin: 10px 20px;
 }
 .student-home-dashboard h1{
-    font-size: 25px;
+    font-size: 20px;
+    color: #ff6b35;
     font-weight: 600;
 }
 .student-home-dashboard p{
     font-size: 15px;
+    color: black;
+    font-weight: 500;
 }
 
 .dashboard-card{
